@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl	text-center	mt-12">Lets get some <span class="text-rose-400">Moneeeeeyyyyyyyyyy!!!</span>
+        </h1>
+    </header>
+    <main>
+        <section class="grid grid-cols-3 gap-4 w-9/12 mx-auto">
+            <div class="bg-emerald-600 mt-12 p-8 text-white rounded-xl">
+                <h2 class="mb-2 text-5xl">Deposit</h2>
+                <h3 class="text-5xl">$00</h3>
+            </div>
+            <div class="bg-amber-400 mt-12 p-8 text-white rounded-xl">
+                <h2 class="mb-2 text-5xl">Withdraw</h2>
+                <h3 class="text-5xl">$00</h3>
+            </div>
+            <div class="bg-neutral-500 mt-12 p-8 text-white rounded-xl">
+                <h2 class="mb-2 text-5xl">Balance</h2>
+                <h3 class="text-5xl">$1240</h3>
+            </div>
+        </section>
+        <section class="grid grid-cols-2 gap-4 w-9/12 mx-auto">
+            <div class="bg-sky-700 mt-12 p-12 rounded-xl">
+                <h2 class="mb-3 text-5xl text-white">Please Deposit</h2>
+                <input class="w-9/12 block mb-3 p-3 rounded-md" type="text" id="deposit-field"
+                    placeholder="$ Amount you want to Deposit">
+                <button class="bg-pink-700 hover:bg-black px-4 py-2  text-white rounded-md font-semibold"
+                    id="btnHandler">Deposit</button>
+            </div>
+            <div class="bg-red-500 mt-12 p-12 rounded-xl">
+                <h2 class="mb-3 text-5xl text-white">Please Withdraw</h2>
+                <input class="w-9/12 block mb-3 p-3 rounded-md" type="text" id="withdraw-field"
+                    placeholder="$ Amount you want to Withdraw">
+                <button class="bg-emerald-600 hover:bg-black px-4 py-2 text-white  rounded-md font-semibold"
+                    id="btnHandler">Withdraw</button>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
