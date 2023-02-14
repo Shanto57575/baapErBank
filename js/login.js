@@ -6,7 +6,7 @@ document.getElementById('btnHandler').addEventListener('click', function () {
     const password = passField.value;
     //console.log(email, password);
 
-    if (email === "shanto57575@gmail.com" && password === "shanto57575")
+    if (email === "shanto@gmail.com" && password ==="57575")
        window.location.href='bank.html';
     else alert("invalid user");
 })
